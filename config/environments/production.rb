@@ -80,6 +80,8 @@ Rails.application.configure do
   config.active_record.attributes_for_inspect = [ :id ]
 
   config.hosts << "budget.gauws.com"
+  config.hosts << "c9161b9e88ce"  # Add the container hostname
+  config.hosts << "localhost"      # Allow local requests
 
   # Enable DNS rebinding protection and other `Host` header attacks.
   # config.hosts = [

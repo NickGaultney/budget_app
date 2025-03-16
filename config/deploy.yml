@@ -7,10 +7,10 @@ image: nickgaultney/budget_app
 # Deploy to these servers.
 servers:
   web:
-    - 159.203.171.124
+    - 165.232.128.26
   # job:
   #   hosts:
-  #     - 159.203.171.124
+  #     - 165.232.128.26
   #   cmd: bin/jobs
 
 # Enable SSL auto certification via Let's Encrypt and allow for multiple apps on a single web server.
